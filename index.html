@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Links</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="modal-area">
-            <div class="backdrop"></div>
-            <div class="modal">
-                <img id="backgroundImage" src="./assets/images/horario.jpeg" alt="imagem dos horarios">
-            </div>
+      <div class="modal-area">
+        <div class="backdrop"></div>
+        <div class="modal">
+          <img
+            id="backgroundImage"
+            src="./assets/images/horario.jpeg"
+            alt="imagem dos horarios"
+          />
         </div>
-        <img src="./assets/images/logo.jpeg" alt="Foto de Perfil">
+      </div>
+      <div class="profile">
+        <img src="./assets/images/logo.jpeg" alt="Foto de Perfil" />
         <h2>Cantinho das Unhas SA</h2>
-        <span>@cantinhodasunhas</span>
-        <div class="container-links">
-            <a class="areaLink" href="https://www.instagram.com/cantinhodasunhassa/" target="_blank">
-                <img src="./assets/images/instagram.png" alt="Logo Instagram">
-                Instagram
-            </a>
-            <a class="areaLink" href="https://wa.me/5581987365407" target="_blank">
-                <img src="./assets/images/calendar.svg" alt="Logo Calendario">
-                Agendamento
-            </a>
-            
-            <a class="areaLink" id="service" target="_blank">
-                <img src="./assets/images/service.svg" alt="Logo Localização">
-                Serviços
-            </a>
-            <a class="areaLink" href="https://wa.me/5581987365407" target="_blank">
-                <img src="./assets/images/curso.svg" alt="Logo curso">
-                Cursos
-            </a>
-            <a class="areaLink" id="horario" target="_blank">
-                <img src="./assets/images/clock.svg" alt="Logo horario">
-                Horário de funcionamento
-            </a>
-            <a class="areaLink" href="https://goo.gl/maps/xRPDQuECafijNLGVA" target="_blank">
-                <img src="./assets/images/location.svg" alt="Logo Localização">
-                Localização
-            </a>
-            
-            
-        </div>
-        <footer>Criado por <strong>DevBotelho.</strong> </footer>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <p>@cantinhodasunhas</p>
+      </div>
 
+      <ul class="container-links">
+        <li>
+          <a
+            href="https://www.instagram.com/cantinhodasunhassa/"
+            target="_blank"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/5581987365407" target="_blank">
+            <ion-icon name="calendar-outline"></ion-icon>
+            Agendamento
+          </a>
+        </li>
+        <li>
+          <a id="service" target="_blank">
+            <ion-icon name="briefcase-outline"></ion-icon>
+            Serviços
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/5581987365407" target="_blank">
+            <ion-icon name="school-outline"></ion-icon>
+            Cursos
+          </a>
+        </li>
+        <li>
+          <a id="horario" target="_blank">
+            <ion-icon name="time-outline"></ion-icon>
+            Horário de funcionamento
+          </a>
+        </li>
+        <li>
+          <a href="https://goo.gl/maps/xRPDQuECafijNLGVA" target="_blank">
+            <ion-icon name="location-outline"></ion-icon>
+            Localização
+          </a>
+        </li>
+      </ul>
+      <footer>
+        Feito com ♥ por
+        <a href="https://github.com/sergiorbotelho">DevBotelho</a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
